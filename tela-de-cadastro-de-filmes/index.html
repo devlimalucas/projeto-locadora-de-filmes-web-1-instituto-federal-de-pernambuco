@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de filmes</title>
+</head>
+
+<body>
+    <header>
+        <p><a href="./index.html">Locadora IPI</a></p>
+        <p><a href="./tela-de-login">Sair</a></p>
+    </header>
+    <nav>
+        <p><a href="./index.html">Anterior</a></p>
+        <p><a href="./index.html">Filme</a></p>
+        <p><a href="./tela-de-login">Usuário</a></p>
+        <p><a href="./tela-de-login">Próximo</a></p>
+    </nav>
+    <form>
+        <label for="inTitulo">Título:</label>
+        <input type="text" id="inTitulo" name="inTitulo"><br>
+        <label for="inGenero">Gênero:</label>
+        <select name="inGenero" id="cars">
+            <option value="acao">Ação</option>
+            <option value="drama">Drama</option>
+            <option value="comedia">Comédia</option>
+            <option value="terror">Terror</option>
+            <option value="ficcao-cientifica">Ficção Científica</option>
+        </select>
+        <br>
+        <p>Selecione os prêmios</p>
+        <input type="checkbox" id="globo-de-ouro" name="globo-de-ouro" value="globo-de-ouro">
+        <label for="globo-de-ouro">Globo de Ouro</label><br>
+        <input type="checkbox" id="bafta" name="bafta" value="bafta">
+        <label for="bafta">BAFTA</label><br>
+        <input type="checkbox" id="oscar" name="oscar" value="oscar">
+        <label for="oscar">Oscar</label><br>
+        <input type="checkbox" id="trofeu-barroco" name="trofeu-barroco" value="trofeu-barroco">
+        <label for="trofeu-barroco">Trófeu Barroco</label><br>
+        <input type="checkbox" id="trofeu-calunga" name="trofeu-calunga" value="trofeu-calunga">
+        <label for="trofeu-calunga">Trófeu Calunga</label>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
