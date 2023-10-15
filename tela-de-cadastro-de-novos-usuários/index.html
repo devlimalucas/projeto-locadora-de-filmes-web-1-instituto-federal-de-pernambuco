@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuários</title>
+</head>
+
+<body>
+    <header>
+        <p><a href="./index.html">Locadora IPI</a></p>
+        <p><a href="./tela-de-login">Sair</a></p>
+    </header>
+    <nav>
+        <p><a href="./index.html">Anterior</a></p>
+        <p><a href="./index.html">Filme</a></p>
+        <p><a href="./tela-de-login">Usuário</a></p>
+        <p><a href="./tela-de-login">Próximo</a></p>
+    </nav>
+    <form>
+        <label for="inName">Nome:</label>
+        <input type="text" id="inName" name="inName"><br>
+        <p>Sexo:</p>
+        <input type="radio" id="masculino" name="masculino" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="feminino" value="feminino">
+        <label for="css">Feminino</label><br>
+
+        <p>Preferências:</p>
+
+        <input type="checkbox" id="acao" name="acao" value="acao">
+        <label for="acao">Ação</label><br>
+        <input type="checkbox" id="drama" name="drama" value="drama">
+        <label for="drama">Drama</label><br>
+        <input type="checkbox" id="comedia" name="comedia" value="comedia">
+        <label for="comedia">Comédia</label><br>
+        <input type="checkbox" id="terror" name="terror" value="terror">
+        <label for="terror">Terror</label><br>
+        <input type="checkbox" id="ficcao-cientifica" name="ficcao-cientifica" value="ficcao-cientifica">
+        <label for="ficcao-cientifica">Ficção Científica</label><br><br>
+        <label for="observacoes">Observações:</label><br>
+        <textarea id="observacoes" name="observacoes" rows="4" cols="50">
+        </textarea>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+</body>
+
+</html>
